@@ -39,6 +39,7 @@ input:focus{
     overflow: hidden;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     max-width: 300px;
+    text-decoration: none;
 
 }
 
@@ -75,3 +76,4 @@ input:focus{
     color: #5a9e6f;
     font-weight: 500;
 }
+

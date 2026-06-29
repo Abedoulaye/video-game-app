@@ -14,12 +14,12 @@ async function getData(url) {
 
 function renderGames(games) {
     movieContainer.innerHTML = games.map((game) =>
-        `<div class="game-card">
+        `<a class="game-card" href=${game.game_url} target="_blank">
             <img src="${game.thumbnail}">
             <h3>${game.title}</h3>
             <p>${game.genre}</p>
             <p>${game.platform}</p>
-        </div>`
+        </a>`
     ).join("");
 }
 
