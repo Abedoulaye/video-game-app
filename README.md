@@ -4,6 +4,10 @@ A video game discovery app that lets you browse and search hundreds of free-to-p
 
 ![GameHub Screenshot](screenshot.png)
 
+## 🚀 Live Demo
+
+[View Live Demo](https://abedoulaye.github.io/video-game-app)
+
 ## Features
 
 - Browse the top 100 free-to-play games on page load
